@@ -69,6 +69,15 @@ Maps config currently configured for max creature level 300 (OverrideOfficialDif
 
 *** History
 
+0.3:
+- Added map templates for The Center, Scorched Earth, Ragnarok.
+  Set MapTemplate in Configs\Config.txt to use necessary map template:
+  uncomment necessary map (remove # at the beginning of line) and comment or remove all others lines with MapTemplate
+  Also set SavePath to location of save-file of map.
+- New script CreateTestMaps.cmd to create test maps for debugging.
+  Useful for creating new map templates.
+- Added logging to ProcessArkSaves.log for troubleshooting.
+
 0.2:
 - Maps are created in JPEG format
 - Using DocumentFormat.OpenXml to read maps config from Excel. Removed dependency on "Microsoft Access Database Engine 2010". 
